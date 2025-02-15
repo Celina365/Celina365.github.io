@@ -1,0 +1,32 @@
+/*blink*/
+.blink1 {
+    animation: blinker-text 1.8s linear infinite;
+  }
+  
+  .blink2 {
+    animation: blinker-text 2s linear infinite;
+  }
+  
+  .blink3 {
+    animation: blinker-text 1.5s linear infinite;
+  }
+  
+  .blink4{
+    animation: blinker-text 3s linear infinite;
+  }
+  
+  @keyframes blinker-text {
+    50% {
+      opacity: 0.5;
+    }
+  }
+
+  .blink-border:hover {
+    animation: blinker-border 1.5s linear infinite;
+  }
+
+  @keyframes blinker-border {
+    50% {
+      border-color: rgb(255, 94, 255);
+    }
+  }

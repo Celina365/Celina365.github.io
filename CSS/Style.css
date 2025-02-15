@@ -1,0 +1,95 @@
+/*center everything*/
+main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*background*/
+body {
+  background-color: #333;
+  background-repeat: round;
+  background-size: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+/*font*/
+@font-face {
+  font-family: Magnetar;
+  src: url(../Fonts/Magnetar.otf);
+}
+
+/*profilepicture*/
+.Profile-picture {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 15px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0)
+}
+
+.Profile-picture:hover{
+  border-color: rgb(255, 0, 106);
+}
+
+
+/*text*/
+h1, p {
+  color: rgb(255, 0, 234);
+  font-family: Magnetar;
+  margin-bottom: 0px;
+}
+
+h3 {
+  color: rgb(255, 0, 234);
+  font-family: Magnetar;
+  margin-top: 0px;
+}
+
+h1:hover, h3:hover, p:hover {
+  color: rgb(255, 90, 255);
+}
+
+a {
+  color: rgb(255, 0, 111);
+  text-decoration: none;
+  font-family: Magnetar;
+}
+
+a:hover {
+  color: rgb(255, 94, 177);
+
+}
+
+/*link*/
+.flex-box-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.links {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  max-width: 300px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.link {
+  border-style: solid;
+  border-color: rgb(255, 0, 234);
+  margin: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 20px;
+}
