@@ -1,0 +1,70 @@
+:root {
+  --pink: #FFC8DC;
+  --purple: #d4a6ed;
+  --dark-pink: #ff62b0;
+}
+
+body {
+  /* background-color: var(--pink); */
+  background: linear-gradient(90deg, #ffd1dc, #c1f0f6, #e0bbff);
+  background-repeat: round;
+  margin: auto;
+}
+
+/*center everything*/
+main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*profilepicture*/
+.Profile-picture {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 15px;
+  border-style: solid;
+  border-color: var(--purple);
+}
+
+
+
+/*text*/
+h1, h3, a, p{
+  color: var(--dark-pink);
+  font-family: serif;
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+
+/*link*/
+.flex-box-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.links {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  max-width: 300px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.link {
+  border-style: solid;
+  border-color: var(--purple);
+  margin: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 20px;
+}
