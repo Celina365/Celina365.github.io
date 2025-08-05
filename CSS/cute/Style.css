@@ -49,7 +49,7 @@ h1, h3, a, p{
   flex-wrap: wrap;
   @media (max-width: 767px) {
   /* Mobile styles here */
-  width: 400px;
+  width: 90%;
   }
   @media (min-width: 768px) and (max-width: 1023px) {
     /* Tablet styles */
